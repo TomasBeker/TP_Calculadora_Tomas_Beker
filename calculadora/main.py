@@ -74,30 +74,3 @@ while(seguir == "s"):
             seguir = input("desea continuar?(s/para continuar n/para salir del programa): ")
     
     os.system("pause")
-
-
-
-
-    
-# match sub_menu_calculo():
-                    
-#                     case "A":
-#                         suma = sumar(a, b)
-#                         flag_suma = True
-#                     case "B":
-#                         resta = restar(a, b)
-#                         flag_resta = True
-#                     case "C":
-#                         if a == 0 or b == 0:
-#                             division = print("No es posible dividir por cero")
-#                             flag_division = True
-#                         else:
-#                             division = dividir(a, b)
-#                             flag_division = True
-#                     case "D":
-#                         multiplicación = multiplicar(a, b)
-#                         flag_multiplicacion = True    
-#                     case "E":
-#                         factorial_a = factorial(a)
-#                         factorial_b = factorial(b)
-#                         flag_factorial = True
