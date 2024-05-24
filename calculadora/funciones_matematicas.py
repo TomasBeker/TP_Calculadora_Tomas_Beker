@@ -13,23 +13,6 @@ def menu_calculadora()->str:
     
     return input("Ingrese una opcion: ")
 
-def sub_menu_calculo()->str:
-    """Menu de opciones de calculo.
-
-    Returns:
-        str: retorna la opcion elegida.
-    """    
-
-    print(f"{'Calculos disponibles':50s}")
-    print("A- Calcular la suma (A + B )")
-    print("B- Calcular la resta (A - B)")
-    print("C- Calcular la división(A / B)")
-    print("D- Calcular la multiplicación(A * B)")
-    print("E- Calcular factorial(A!)")
-
-    entrada = input("Ingrese una opcion: ")
-
-    return entrada.upper()
 
 def sub_menu_informar(primer_operando:float, segundo_operando:float)->str:
     """Menu de opciones para informar el resultado de los calculos previamente hechos.
