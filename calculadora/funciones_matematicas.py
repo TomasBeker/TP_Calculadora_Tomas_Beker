@@ -26,10 +26,10 @@ def sub_menu_informar(primer_operando:float, segundo_operando:float)->str:
     """    
 
     print(f"{'Resultados de los Calculos ':50s}")    
-    print(f"A- Resultado de la suma")
-    print(f"B- Resultado de la resta")
-    print(f"C- Resultado de la division")
-    print(f"D- Resultado de la multiplicacion")
+    print(f"A- Resultado de la suma ({primer_operando} + {segundo_operando})")
+    print(f"B- Resultado de la resta ({primer_operando} - {segundo_operando})")
+    print(f"C- Resultado de la division ({primer_operando} / {segundo_operando})")
+    print(f"D- Resultado de la multiplicacion ({primer_operando} * {segundo_operando})")
     print(f"E- Resultado del factorial de {primer_operando} y el de {segundo_operando}")
 
     entrada = input("Ingrese una opcion: ")
